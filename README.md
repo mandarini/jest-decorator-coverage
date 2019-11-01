@@ -1,5 +1,6 @@
 # jest-decorator-coverage
 When `isolateModules: true`, decorated parameters will have coverage results with `branch not covered`
+https://github.com/kulshekhar/ts-jest/issues/1166
 
 ### [jest.config.js](jest.config.js)
 ```js
