@@ -4,7 +4,10 @@ module.exports = {
   collectCoverageFrom: ["src/main.ts"],
   globals: {
     "ts-jest": {
-      isolatedModules: true
-    }
-  }
+      isolatedModules: true,
+    },
+  },
+  transform: {
+    "\\.(ts|tsx)$": "<rootDir>/fix-istanbul-decorators.js",
+  },
 };
